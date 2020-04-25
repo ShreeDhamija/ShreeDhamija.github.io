@@ -300,6 +300,7 @@ width: 70%;
 
 .start{
 	text-align: center;
+	font-size: 16px;
 }
 
 .mobilet{
@@ -310,6 +311,10 @@ width: 70%;
 	color: #FCC55B;
 	text-align: center;
 	margin: 0 auto;
+}
+
+.subt{
+	margin-top: 0%;
 }
 
 .email{
@@ -329,11 +334,11 @@ width: 40%;
 }
 
 .looking{
-	font-size: 24px;
+	font-size: 22px;
 
 }
 .rightartist{
-		font-size: 24px;
+		font-size: 22px;
 
 }
 
