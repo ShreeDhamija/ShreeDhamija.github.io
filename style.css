@@ -298,13 +298,18 @@ width: 70%;
 
 }
 
+.start{
+	text-align: center;
+}
+
 .mobilet{
 	display: inline;
 	font-family: Inter;
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 32px;
 	color: #FCC55B;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .email{
