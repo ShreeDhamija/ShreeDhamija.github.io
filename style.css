@@ -363,19 +363,21 @@ width: 90%;
 
 .whatever{
 	display: inline;
-	width: 95%;
+	width: 80%;
+	
 
 }
 .wherever{
 	display: inline;
-	width: 95%;
-	margin-left: 5%;
+	width: 80%;
+	
 	margin-top: 5%;
 }
 .budget{
 	display: inline;
-	width: 95%;
+	width: 80%;
 	margin-top: 5%;
+	
 }
 
 .artistimg{
