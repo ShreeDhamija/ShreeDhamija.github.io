@@ -54,7 +54,14 @@ background-color: #1A1A1A;
 	color: #FCC55B;
 	text-align: center;
 }
-
+.mobilet{
+	font-family: Inter;
+	font-weight: 600;
+	font-size: 48px;
+	color: #FCC55B;
+	text-align: center;
+	display: none;
+}
 .subt{
 	font-family: Inconsolata;
 	font-size: 18px;
@@ -286,6 +293,18 @@ width: 70%;
 @media screen and (max-width: 600px)
 {
 
+.t{
+	display: none;
+
+}
+
+.mobilet{
+	font-family: Inter;
+	font-weight: 600;
+	font-size: 40px;
+	color: #FCC55B;
+	text-align: center;
+}
 
 .email{
 width: 40%;
