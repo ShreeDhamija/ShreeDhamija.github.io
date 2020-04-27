@@ -103,9 +103,11 @@ background-color: #1A1A1A;
 }
 
 #confirmation{
-	font-size: 18px;
+	font-size: 12px;
 	display: none;
 	color: white;
+	font-family: Inconsolata;
+	text-align: center;
 }
 
 .sell{
