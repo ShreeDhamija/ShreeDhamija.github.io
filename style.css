@@ -4,7 +4,7 @@
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
+  color: #696969;;
   opacity: 1; /* Firefox */
 }
 
@@ -74,7 +74,7 @@ background-color: #1A1A1A;
 
 .email{
 	border-radius: 10px;
-	border-width: 2px;
+	
 	border-style: solid;
 	
 	width: 15%;
@@ -89,9 +89,8 @@ background-color: #1A1A1A;
 }
 .typeofart{
 	border-radius: 10px;
-	border-width: 2px;
-	border-style: solid;
 	
+	border-style: solid;
 	width: 15%;
 	padding: 7px 14px;
 	font-family: Inconsolata;
@@ -353,23 +352,23 @@ width: 70%;
 }
 
 .email{
-width: 40%;
-margin-left: 30%;
+width: 70%;
+margin-left: 15%;
 
 
 }
 .typeofart{
-	width: 40%;
-	margin-left: 30%;
+	width: 70%;
+	margin-left: 15%;
 }
 .button{
-width: 40%;
+width: 70%;
 margin-left: 0%;
 }
 
 .button2{
-	width: 40%;
-	margin-left: 30%;
+	width: 70%;
+	margin-left: 15%;
 }
 .news{
 	font-size: 18px;
