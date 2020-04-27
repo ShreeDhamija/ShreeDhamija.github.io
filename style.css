@@ -73,7 +73,7 @@ background-color: #1A1A1A;
 
 
 .email{
-	border-radius: 10px;
+	border-radius: 5px;
 	
 	border-style: solid;
 	
@@ -84,12 +84,12 @@ background-color: #1A1A1A;
 	font-color: black;
 	float: left;
 	display: inline;
-	margin-left: 29%;
+	margin-left: 27%;
 
 
 }
 .typeofart{
-	border-radius: 10px;
+	border-radius: 5px;
 	
 	border-style: solid;
 	width: 15%;
@@ -99,7 +99,7 @@ background-color: #1A1A1A;
 	font-color: black;
 	float: left;
 	display: inline-block;
-	margin-left: 0%;
+	margin-left: 1%;
 }
 .button{
 	font-family: Inter;
@@ -107,11 +107,11 @@ background-color: #1A1A1A;
 	padding: 5px 5px;
 	font-weight: 600;
 	background-color: #000000;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 2px solid #FDCE73;
 	width: 15%;
 	-webkit-appearance: none;
-	
+	margin-left: 1%;
 	color: #FDCE73;
 }
 
@@ -121,12 +121,12 @@ background-color: #1A1A1A;
 	padding: 5px 5px;
 	font-weight: 600;
 	background-color: #000000;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 2px solid #FF5C83;
 	width: 15%;
 	-webkit-appearance: none;
 	margin-top: 5%;
-	margin-left: 44%;
+	margin-left: 43%;
 	color: #FF5C83;
 }
 
@@ -239,6 +239,7 @@ background-color: #1A1A1A;
 	grid-column-end: 3;
 }
 
+
 .news{
 	
 	
@@ -339,6 +340,7 @@ width: 70%;
 
 .subt{
 	margin-top: 0%;
+	font-size: 14px;
 }
 
 .email{
