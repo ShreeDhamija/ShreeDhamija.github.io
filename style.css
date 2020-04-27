@@ -87,6 +87,20 @@ background-color: #1A1A1A;
 	margin-left: 35%;
 
 }
+.typeofart{
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	
+	width: 15%;
+	padding: 7px 14px;
+	font-family: Inconsolata;
+	font-size: 14px;
+	font-color: black;
+	float: left;
+	display: inline-block;
+	margin-left: 0%;
+}
 .button{
 	font-family: Inter;
 	font-size: 14px;
@@ -98,8 +112,23 @@ background-color: #1A1A1A;
 	width: 15%;
 	-webkit-appearance: none;
 	
-	margin-left: 1%;
+	margin-left: 44%;
 	color: #FDCE73;
+}
+
+.button2{
+	font-family: Inter;
+	font-size: 14px;
+	padding: 5px 5px;
+	font-weight: 600;
+	background-color: #000000;
+	border-radius: 10px;
+	border: 2px solid #FF5C83;
+	width: 15%;
+	-webkit-appearance: none;
+	margin-top: 5%;
+	margin-left: 44%;
+	color: #FF5C83;
 }
 
 #confirmation{
@@ -205,8 +234,8 @@ background-color: #1A1A1A;
 	display: none;
 }
 .final{
-grid-row: 9;
-grid-column-start: 1;
+	grid-row: 9;
+	grid-column-start: 1;
 	grid-column-end: 3;
 }
 
@@ -258,9 +287,13 @@ margin-left: 30%;
 
 
 }
+.typeofart{
+width: 20%;
+}
 
 .button{
 width: 20%;
+margin-left: 40%;
 }
 
 .mainimg{
@@ -321,15 +354,23 @@ width: 70%;
 
 .email{
 width: 40%;
-margin-left: 10%;
+margin-left: 30%;
 
 
 }
-
+.typeofart{
+	width: 40%;
+	margin-left: 30%;
+}
 .button{
 width: 40%;
+margin-left: 0%;
 }
 
+.button2{
+	width: 40%;
+	margin-left: 30%;
+}
 .news{
 	font-size: 18px;
 	line-height: 20px;
