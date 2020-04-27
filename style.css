@@ -262,21 +262,7 @@ background-color: #1A1A1A;
 
 
 
-.button1{
-	font-family: Inter;
-	font-size: 14px;
-	padding: 5px 5px;
-	font-weight: 600;
-	background-color: #000000;
-	border-radius: 10px;
-	border: 2px solid #97FD73;
-	width: 15%;
-	-webkit-appearance: none;
-	
-	margin-left: 1%;
-	color: #97FD73;
 
-}
 
 @media screen and (max-width: 1200px)
 {
@@ -331,10 +317,13 @@ width: 70%;
 	display: none;
 
 }
-
+.logo{
+	font-size: 14px;
+}
 .start{
 	text-align: center;
 	font-size: 16px;
+	margin-top: 5%;
 }
 
 .mobilet{
@@ -369,6 +358,7 @@ margin-left: 0%;
 .button2{
 	width: 70%;
 	margin-left: 15%;
+	margin-top: 10%;
 }
 .news{
 	font-size: 18px;
@@ -432,9 +422,7 @@ width: 100%;
 	display: block;
 	width: 100%;
 }
-.button1{
-	width: 40%;
-}
+
 
 }
 
