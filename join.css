@@ -69,4 +69,6 @@ grid-template-columns: auto;
 
 #confirmation{
 	display: none;
+	font-family: Inconsolata;
+	text-align: center;
 }
