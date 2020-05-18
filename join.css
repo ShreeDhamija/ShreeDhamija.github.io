@@ -53,6 +53,19 @@ grid-template-columns: auto;
 
 }
 
+.url{
+	border-radius: 50px;
+	border-width: 2px;
+	border-style: solid;
+	width: 80%;
+	padding: 8px 12px;
+	font-family: Inconsolata;
+	font-size: 18px;
+	font-color: black;
+	margin-bottom: 20px;
+	margin-left: 10%;
+	margin-top: -200px;
+}
 .button{
 	font-family: Inter;
 	font-size: 18px;
