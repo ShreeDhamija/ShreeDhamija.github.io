@@ -1,0 +1,430 @@
+*{
+  box-sizing: border-box;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+input{
+	-webkit-appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.container{
+	display: grid;
+	grid-template-rows: 30px auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-columns: 1fr 1fr;
+	
+}
+a:link {
+  text-decoration: none;
+}
+.logo{
+	grid-row: 1;
+	grid-column: 1 / 3;
+	margin-left: 1%;
+	font-family: Righteous;
+	font-size: 28px;
+	color: white;
+}
+
+.logo em{
+	font-style: normal;
+	color: #FD3F8F;
+}
+
+.header{
+	grid-row: 2;
+	grid-column: 1 / 3;
+	text-align: center;
+	font-family: Righteous;
+	font-size: 60px;
+	color: white;
+	margin-bottom: -50px;
+
+
+}
+
+.header em{
+	font-style: normal;
+	color: #FD3F8F;
+}
+
+.three{
+	grid-row: 3;
+	grid-column: 1 / 3;
+	margin: 0 auto;
+}
+.button{
+	
+	font-family: Inter;
+	font-size: 18px;
+	padding: 10px 10px;
+	font-weight: 600;
+	background-color: #FD3F8F;
+	border-radius: 5px;
+	border-width: 0px;
+	width: 150%;
+	-webkit-appearance: none;
+	color: white;
+	margin-left: -25%;
+	
+
+}
+
+.images{
+	grid-row: 4;
+	grid-column: 1/2;
+	margin-top: 18%;
+}
+
+.imaj{
+	width: 50%;
+	margin-left: 45%;
+}
+
+.services{
+	grid-row: 4;
+	grid-column: 2/3;
+	margin-top: 18%;
+	
+}
+
+li{
+	color: white;
+	font-family: Righteous;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.see{
+	color: #FD3F8F;
+	font-family: Inter;
+	font-size: 18px;
+	margin-left: 5%;
+
+}
+
+
+.uses{
+	grid-row: 5;
+	grid-column: 1/2;
+	margin-left: 45%;
+	margin-top: 160px;
+}
+
+.find{
+	color: white;
+	font-family: Righteous;
+	font-size: 28px;
+	margin-bottom: 0px; 
+
+
+}
+
+.use{
+	color: #FD3F8F;
+	font-family: Righteous;
+	font-size: 28px;
+	margin-bottom: 15px;	
+	margin-left: -10%;
+}
+
+.use1{
+	color: white;
+	font-family: Righteous;
+	font-size: 28px;
+	margin-bottom: 5px;
+	margin-left: -10%;	
+}
+
+.tell{
+	color: #FD3F8F;
+	font-family: Inter;
+	font-size: 18px;
+	margin-left: -1%;
+}
+
+.imagestwo{
+grid-row: 5;
+grid-column: 2/3;
+margin-top: 60px;
+}
+.imajtwo{
+	width: 60%;	
+}
+
+.picasso{
+grid-row: 7;
+grid-column: 1/3;
+margin-top: 60px;
+text-align: center;
+
+}
+
+.thousand{
+	color: white;
+	font-family: Righteous;
+	font-size: 40px;
+	
+}
+
+.buttontwo{
+	font-family: Inter;
+	font-size: 18px;
+	padding: 10px 10px;
+	font-weight: 600;
+	background-color: #FD3F8F;
+	border-radius: 5px;
+	border-width: 0px;
+	width: 20%;
+	-webkit-appearance: none;
+	color: white;
+	margin-top: -20px;
+}
+
+.featured{
+grid-row: 8;
+grid-column: 1/3;	
+}
+
+.fartist{
+	font-family: Inter;
+	font-size: 40px;
+	color: #FD3F8F;	
+	margin-left: 22%;
+}
+.ben{
+	font-family: Righteous;
+	font-size: 28px;
+	color: #CFCDCD;	
+	margin-left: 22%;
+	margin-top: -40px;
+}
+.illustrator{
+	font-family: Inconsolata;
+	font-size: 18px;
+	color: #CFCDCD;	
+	margin-left: 22%;
+	margin-top: -20px;
+
+}
+
+.link{
+	font-family: Inconsolata;
+	font-size: 18px;
+	color: #CFCDCD;	
+	margin-left: 22%;
+	margin-top: -10px;
+
+}
+
+.benimg{
+	margin-left: 25%;
+	width: 50%;
+	margin-bottom: 30px;
+
+}
+
+.footer{
+	grid-row: 9;
+grid-column: 1/3;
+}
+.buttonthree{
+	font-family: Inter;
+	font-size: 18px;
+	padding: 10px 10px;
+	font-weight: 600;
+	background-color: #FD3F8F;
+	border-radius: 5px;
+	border-width: 0px;
+	width: 20%;
+	-webkit-appearance: none;
+	color: white;
+	margin-top: 50px;
+	margin-left: 40%;
+
+}
+
+.artistsignup{
+	font-family: Inconsolata;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+.space{
+	grid-row: 10;
+	grid-column: 1/3;
+	height: 50px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+
+
+.imaj{
+	width: 60%;
+	margin-left: 40%;
+}
+
+.imajtwo{
+	width: 60%;
+}
+.uses{
+	margin-left: 40%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+
+
+.imaj{
+	width: 75%;
+	margin-left: 25%;
+}
+.imajtwo{
+	width: 80%;
+	margin-top: 40px;
+}
+
+.uses{
+	margin-left: 25%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+
+
+.imaj{
+	width: 85%;
+	margin-left: 15%;
+}
+
+.imajtwo{
+	width: 90%;
+	margin-top: 60px;
+}
+
+.uses{
+	margin-left: 15%;
+}
+
+
+@media only screen and (max-width: 600px) {
+.logo{
+	font-size: 16px;
+}
+.header{
+	font-size: 40px;
+	margin-bottom: -30px;
+	line-height: 38px;
+
+}
+
+.images{
+	grid-row: 4;
+	grid-column: 1/3;
+	margin-top: 18%;
+}
+.imaj{
+
+	margin-left: 7%;
+}
+.see{
+	margin-left: 10%;
+}
+.services{
+	grid-row: 5;
+	grid-column: 1/3;
+	margin-top: 18%;
+	
+}
+
+.imagestwo{
+	grid-row: 6;
+	grid-column: 1/3;
+	margin-top: 1%;
+}
+
+.imajtwo{
+	margin-left: 5%;
+}
+.uses{
+	grid-row: 7;
+	grid-column: 1/3;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+.tell{
+	margin-left: 2%;
+}
+.picasso{
+	grid-row: 8;
+}
+.thousand{
+	font-size: 32px;
+}
+.buttontwo{
+	width: 50%;
+}
+
+.buttonthree{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.featured{
+	grid-row: 9;
+}
+.fartist{
+margin-left: 3%;
+}
+
+.ben{
+	margin-left: 3%;
+
+}
+
+.illustrator{
+margin-left: 3%;
+}
+
+.link{
+margin-left: 3%;
+}
+.benimg{
+	width: 90%;
+	margin-left: 5%;
+}
+.footer{
+	grid-row: 10;
+
+}
+.space{
+	grid-row: 11;
+}
+
+}
+

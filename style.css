@@ -41,7 +41,10 @@ body{
 	color: white;
 	margin-left: 3%;
 }
-
+.hl em{
+	font-style: normal;
+	color: #FD3F8F;
+}
 .red{
 	margin: 0 auto;
 	width: 90%;
