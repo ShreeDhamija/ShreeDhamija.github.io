@@ -389,10 +389,11 @@ margin-right: 5%;
 .wrapper{
 	background-color: #313131;
 	/*padding-left: 40px;*/
-	margin-right: 45px;
+	margin-left: -25px;
 	border: 0.1px solid #313131;
-  	border-radius: 5px;
+  	border-radius: 10px;
   	padding-left: 7px;
+  	width: 100%;
   	
 
 }
