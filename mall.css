@@ -350,13 +350,14 @@ margin-left: 20px;
 }
 
 .groupimg{
-margin-top: -40px;
+margin-top: -100px;
 width: 75%;
 }
 
 
 .row2{
 	grid-gap: 2rem;
+	margin-top: -100px;
 }
 
 .icon{
