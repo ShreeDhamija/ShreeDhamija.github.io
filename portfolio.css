@@ -69,9 +69,9 @@ background-size: cover;
 	font-size: 38px;
 	font-family: inter;
 	font-weight: 600;
-	text-align: center;
+	text-align: left;
 	color: white;
-	margin-left: 10px;
+	margin-left: 20px;
 
 	
 }
@@ -80,10 +80,10 @@ background-size: cover;
 	font-size: 16px;
 	font-family: inter;
 	font-weight: 300;
-	text-align: center;
+	text-align: left;
 	color: #D8D8D8;
-	margin-top: -40px;
-	margin-left: 10%;
+	margin-top: -35px;
+	margin-left: 20px;
 	margin-right: 10%;
 }
 
@@ -96,7 +96,7 @@ background-size: cover;
 	color: #FF8A00;
 	float: left;
 	margin-left: 20%;
-	margin-top: 35px;
+	margin-top: 45px;
 	border: 1px solid #FF8A00;
 	border-radius: 8px;
 	padding-top: 10px;
