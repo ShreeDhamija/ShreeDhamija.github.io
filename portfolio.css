@@ -81,7 +81,7 @@ background-size: cover;
 	font-family: inter;
 	font-weight: 300;
 	text-align: left;
-	color: #D8D8D8;
+	color: #FFE1BD;
 	margin-top: -35px;
 	margin-left: 20px;
 	margin-right: 10%;
@@ -96,7 +96,7 @@ background-size: cover;
 	color: #FF8A00;
 	float: left;
 	margin-left: 20%;
-	margin-top: 45px;
+	margin-top: 25px;
 	border: 1px solid #FF8A00;
 	border-radius: 8px;
 	padding-top: 10px;
@@ -129,7 +129,8 @@ background-size: cover;
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 
@@ -202,7 +203,7 @@ background-size: cover;
 .subimg{
 	width: 90%;
 	margin-left: 15px;
-	margin-top: 30px;
+	margin-top: 10px;
 
 	
 }
