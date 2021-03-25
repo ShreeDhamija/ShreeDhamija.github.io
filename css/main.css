@@ -82,17 +82,20 @@ body {
 	margin-top:35px; 
 }
 .subscribe a{
-	height:67px;
-	background:#f2d746;
-	font-size:16px;
-	font-weight:400;
-	color:#000;
-	padding:22px 60px 15px 55px;
-	letter-spacing:0.5px;
-	font-family: 'Inter', sans-serif;
-	display:inline-block;
-	text-decoration:none;
-	transition:0.3s ease;
+	height: 67px;
+    background: #f2d746;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding: 20px 60px 15px 55px;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    border: 2px #000 solid;
+    box-shadow: 7px 3px 0 rgb(255 255 255);
 }
 .subscribe a:hover{
 	background:#fff;
@@ -233,15 +236,19 @@ body {
 	color:#000;
 }
 .owl-prev {
-	width: 80px;
+    width: 80px;
     height: 80px;
-	border:2px #fff solid!important;
-    background:#000 url(../img/prev.png) no-repeat center!important;
+    border: 2px #fff solid!important;
+    background: #000 url(../img/prev.png) no-repeat center!important;
     border-radius: 50px;
     margin-left: -180px;
     top: 40%;
-	left:0;
+    right: -180px;
     color: transparent;
+	
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
 }
 
 .owl-next {
@@ -251,8 +258,11 @@ body {
     background:#000 url(../img/next.png) no-repeat center!important;
     border-radius: 50px;
     top: 40%;
-	right:-180px;
+	left:-180px;
     color: transparent;
+	transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
 }
 
 /* removing blue outline from buttons */
@@ -265,7 +275,7 @@ button:focus, button:active {
 }
 .plugins{
 	background:#fff;
-	margin-top:145px;
+	margin-top:100px;
 	margin-bottom:70px;
 	padding:55px 0 55px;
 	text-align:center;
@@ -353,12 +363,19 @@ button:focus, button:active {
 	color:#fff;	
 	margin-top:15px;
 }
-
-
+.onphone{
+		display:none;
+}
+.ondesktop{
+		display:block;
+}
 
 @media(max-width:767px){
 	
-	
+	.banner {
+		height: auto;
+		padding-bottom: 45px;
+	}
 	.banner h1 {
 		font-size: 38px;
 		line-height: 46px;
@@ -367,10 +384,10 @@ button:focus, button:active {
 		display:none;
 	}
 	.tab_user img {
-		margin: -20px auto 0;
+		margin:0px auto 0;
 	}
 	.tab_user {
-		height: 191px;
+		height:auto;
 	}
 	.t001_se1 h2 {
 		font-size: 28px;
@@ -378,7 +395,12 @@ button:focus, button:active {
 		padding-bottom: 15px;
 
 	}
-
+	.ondesktop{
+		display:none;
+	}
+	.onphone{
+		display:block;
+	}
 	.t001_se1 p{
 		padding-left: 15px;
 		padding-right: 15px;
@@ -391,26 +413,28 @@ button:focus, button:active {
 	}
 	.t001_se1 {
 		height: auto;
-		padding: 60px 0 60px;
+		padding:100px 0 60px;
 	}
 	.product_gallery {
-		padding: 0 	30px;
+		padding:0  30px 0 0;
 	}
 	.owl-prev {
 		width: 40px;
 		height: 40px;
-		margin-left: -45px;
+		right: -45px;
+		margin-left:0px;
 		background-size: 50%!important;
 	}
 	.owl-next {
 		width: 40px;
 		height: 40px;
 		right: -45px;
+		display:none;
 		background-size: 50%!important;
 	}
 	.zipman {
 		height: auto;
-		padding:40px 20px;
+		padding:40px 0px;
 	}
 	.zipman a{
 		display:block!important;
@@ -426,12 +450,14 @@ button:focus, button:active {
 	}
 	.plugins{
 		overflow:hidden;
-		padding: 45px 0 45px;
+		margin-top: 38px;
+		padding:35px 0 35px;
 	}
 	.banner p {
 		font-size: 16px;
 		line-height: 29.81px;
 	}
+	
 	.zipman h5 {
 		font-size: 49px;
 	}
@@ -440,8 +466,11 @@ button:focus, button:active {
 		padding: 0 0px;
 	}
 	.footer {
-		padding-top: 40px;
+		padding-top:0px;
 		height: 467px;
+	}
+	.footer h1{
+		color:#fff;
 	}
 	.input-group {
 		display: block;
@@ -454,7 +483,7 @@ button:focus, button:active {
 		width: 100%;
 		margin-top: 5px;
 	}
-.t002_se2{
+	.t002_se2{
 		padding:20px 0 40px;
 	}
 
@@ -465,34 +494,60 @@ button:focus, button:active {
 	.marquee span {
 		font-size: 44px!important;
 	}
+	.navbar-brand {
+		padding: 23px 0px;
+	}
+	.navbar-wrapper .navbar {
+		padding-left: 0px;
+	}
+	
+	
+	
 	
 }
 
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+@media  
+   (min-width: 768px) 
+  and (max-width: 1100px){ 
   
 	.tab_user img {
-		margin: -39px auto 0;
+		margin:19px auto 0;
 	}
 	.tab_user {
-		height: 404px;
+		height:auto;
+	}
+	.t001_se1 {
+		height: auto;
+		padding:100px 0 0px;
+	}
+	.t002_se2 {
+		min-height: auto;
+		padding: 50px 0 40px;
+	}
+	.ondesktop{
+		display:block;
+	}
+	.onphone{
+		display:none;
 	}
 	.owl-next {
-		right: -85px;
+		right:577px;
 	}
 	.owl-prev {
-		margin-left: -85px;
+		margin-left: 0;
+		right: -88px;
 	}
 	  .product_gallery {
 		padding: 0 60px;
 	}
 	.plugins {
 		overflow: hidden;
-		padding: 45px 0 25px;
+		padding: 45px 0 45px;
+		margin-top:50px;
+	}
+	.img_btn {
+		padding: 0 0px;
 	}
 	.marquee span {
 		font-size: 28px!important;
