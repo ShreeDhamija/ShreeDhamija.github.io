@@ -26,6 +26,7 @@ body {
 
 
 
+
 @media (min-width: 768px) {
   .navbar-wrapper {
     margin-top: 20px;
@@ -368,6 +369,8 @@ button:focus, button:active {
 }
 .ondesktop{
 		display:block;
+		width: 90%;
+
 }
 
 @media(max-width:767px){
@@ -385,6 +388,7 @@ button:focus, button:active {
 	}
 	.tab_user img {
 		margin:0px auto 0;
+
 	}
 	.tab_user {
 		height:auto;
@@ -397,6 +401,7 @@ button:focus, button:active {
 	}
 	.ondesktop{
 		display:none;
+
 	}
 	.onphone{
 		display:block;
@@ -527,7 +532,9 @@ button:focus, button:active {
 	}
 	.ondesktop{
 		display:block;
-	}
+			}
+		
+
 	.onphone{
 		display:none;
 	}
