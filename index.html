@@ -120,7 +120,7 @@
           <p class="hero__text">
             We Design Ecommerce Stores That Look Better Than Ryan Gosling
           </p>
-          <div class="hero__button">
+          <div class="hero__button js-hover">
             <img
               class="btn__bg"
               src="./images/btn-bg.png"
@@ -139,24 +139,35 @@
           </div>
         </section>
         <div
-          class="example container"
+          class="example"
           data-aos="fade"
           data-aos-duration="1600"
           data-aos-once="true"
         >
-          <img
-            class="example__desktop"
-            src="./images/content/training-gear-big.png"
-            alt="design example"
-          />
-          <img
-            class="example__mobile"
-            src="./images/content/training-gear-small.png"
-            alt="design example"
-          />
+          <picture class="example__desktop">
+            <source
+              srcset="./images/content/training-gear-big.png"
+              type="image/png"
+              media="(min-width:1199px )"
+            />
+            <source
+              srcset="./images/content/training-gear-big-table.png"
+              type="image/png"
+              media="(min-width:660px )"
+            />
+            <source
+              srcset="./images/content/training-gear-big-mobile.png"
+              type="image/png"
+              media="(max-width:660px )"
+            />
+            <img
+              src="./images/content/training-gear-big.png"
+              alt="design example"
+            />
+          </picture>
         </div>
         <section
-          class="advantage container"
+          class="advantage"
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-once="true"
@@ -458,104 +469,135 @@
             </li>
           </ul>
         </section>
-        <section
-          class="contact-us"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-once="true"
-        >
-          <div class="contact-us__container">
-            <h2 class="contact-us__text">
-              Reach Out If you you wanna make your others thirsty for your store
-            </h2>
-            <ul class="contact-us__list">
-              <li class="contact-us__item">
-                <a
-                  class="contact-us__link"
-                  href="#"
-                  aria-label="instagram"
-                  target="_blank"
-                  rel="noopener"
-                  ><svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
-                      stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
-                      stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M17.5 6.5H17.51"
-                      stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                  <span>@storeos</span></a
-                >
-              </li>
-              <li class="contact-us__item">
-                <a
-                  class="contact-us__link"
-                  href="#"
-                  aria-label="twitter"
-                  target="_blank"
-                  rel="noopener"
-                  ><svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      class="twitter"
-                      d="M19 0H5C2.239 0 0 2.239 0 5V19C0 21.761 2.239 24 5 24H19C21.762 24 24 21.761 24 19V5C24 2.239 21.762 0 19 0ZM18.861 9.237C19.07 13.854 15.627 19.002 9.531 19.002C7.677 19.002 5.952 18.459 4.499 17.527C6.241 17.732 7.979 17.249 9.359 16.168C7.922 16.141 6.71 15.192 6.293 13.888C6.808 13.986 7.314 13.957 7.775 13.832C6.196 13.515 5.107 12.093 5.142 10.572C5.584 10.818 6.091 10.966 6.628 10.983C5.167 10.006 4.753 8.076 5.612 6.6C7.231 8.586 9.65 9.893 12.378 10.03C11.899 7.977 13.458 6 15.577 6C16.52 6 17.374 6.398 17.972 7.037C18.72 6.89 19.423 6.617 20.058 6.241C19.812 7.008 19.292 7.651 18.615 8.057C19.279 7.977 19.912 7.801 20.5 7.54C20.061 8.196 19.504 8.774 18.861 9.237Z"
-                      fill="#111111"
-                    />
-                  </svg>
-
-                  <span>@storeos</span></a
-                >
-              </li>
-              <li class="contact-us__item">
-                <div class="contact-us__button">
-                  <img
-                    class="btn__bg"
-                    src="./images/btn-bg.png"
-                    alt="background"
-                    width="360"
-                  />
-                  <a
-                    class="btn__content"
-                    href="https://shreedhamija.typeform.com/to/kBByDalC"
-                    aria-label="mail"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <span>Make work enquiry</span>
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer
+        class="footer contact-us"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-once="true"
+      >
+        <div class="contact-us__container">
+          <h2 class="contact-us__text">
+            Reach Out If you you wanna make others thirsty for your store
+          </h2>
+          <div class="contact-us__button js-hover">
+            <img
+              class="btn__bg"
+              src="./images/btn-bg.png"
+              alt="background"
+              width="360"
+            />
+            <a
+              class="btn__content"
+              href="https://shreedhamija.typeform.com/to/kBByDalC"
+              aria-label="mail"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>Make work enquiry</span>
+            </a>
+          </div>
+          <ul class="contact-us__list">
+            <li class="contact-us__item">
+              <a
+                class="contact-us__link"
+                href="#"
+                aria-label="instagram"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.5H17.51"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>@_store_os</span></a
+              >
+            </li>
+            <li class="contact-us__item">
+              <a
+                class="contact-us__link"
+                href="#"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="twitter"
+                    d="M19 0H5C2.239 0 0 2.239 0 5V19C0 21.761 2.239 24 5 24H19C21.762 24 24 21.761 24 19V5C24 2.239 21.762 0 19 0ZM18.861 9.237C19.07 13.854 15.627 19.002 9.531 19.002C7.677 19.002 5.952 18.459 4.499 17.527C6.241 17.732 7.979 17.249 9.359 16.168C7.922 16.141 6.71 15.192 6.293 13.888C6.808 13.986 7.314 13.957 7.775 13.832C6.196 13.515 5.107 12.093 5.142 10.572C5.584 10.818 6.091 10.966 6.628 10.983C5.167 10.006 4.753 8.076 5.612 6.6C7.231 8.586 9.65 9.893 12.378 10.03C11.899 7.977 13.458 6 15.577 6C16.52 6 17.374 6.398 17.972 7.037C18.72 6.89 19.423 6.617 20.058 6.241C19.812 7.008 19.292 7.651 18.615 8.057C19.279 7.977 19.912 7.801 20.5 7.54C20.061 8.196 19.504 8.774 18.861 9.237Z"
+                    fill="#111111"
+                  />
+                </svg>
+
+                <span>@_store_os</span></a
+              >
+            </li>
+            <li class="contact-us__item">
+              <a
+                class="contact-us__link"
+                href="mailto:hello@storeos.co"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  class="mail-dn"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.33325 10.3334C6.33325 8.86065 7.52716 7.66675 8.99992 7.66675H22.9999C24.4727 7.66675 25.6666 8.86065 25.6666 10.3334V21.6667C25.6666 23.1395 24.4727 24.3334 22.9999 24.3334H8.99992C7.52716 24.3334 6.33325 23.1395 6.33325 21.6667V10.3334Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7.33325 8.66675L15.9999 16.3334L24.6666 8.66675"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <span>hello@storeos.co</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
       <span class="wrapper__email">hello@storeos.co</span>
     </div>
     <script src="./js/main.min.js"></script>
