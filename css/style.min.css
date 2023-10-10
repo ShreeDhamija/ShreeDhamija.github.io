@@ -3282,7 +3282,7 @@ button.contact-us-btn[data-aos^=fade][data-aos^=fade].aos-animate.hide {
 .work img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-radius: clamp(1.875rem, 40/1512*100vw, 2.5rem);
+    border-radius: clamp(2.5rem, 40/1512*100vw, 2.5rem);
     max-height: 598px;
     -o-object-fit: contain;
     object-fit: contain;
