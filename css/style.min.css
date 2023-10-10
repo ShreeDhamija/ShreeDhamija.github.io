@@ -4845,7 +4845,7 @@ button.contact-us-btn[data-aos^=fade][data-aos^=fade].aos-animate.hide {
     .case-approach__slider-img {
         -o-object-fit: contain;
         object-fit: contain;
-        width: clamp(15.3125rem, 319/1512*100vw, 19.9375rem);
+        width: clamp(15.0rem, 319/1512*100vw, 19.9375rem);
         height: auto;
         max-height: 432px
     }
